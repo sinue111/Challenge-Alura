@@ -1,0 +1,128 @@
+:root {
+    --color-primario: #F3F5FC ;
+    --color-secundario:#EFF1FA;
+    --color-terciario: #E9ECF8;
+    --color-hover: #AAB2D5;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+.body{
+    background-color: var(--color-primario);
+    color:#0A3871;
+    flex-direction: column;
+
+}
+.caja_texto{
+    padding: 10% 10% 0% 15%;
+    border:0;
+    background-color: var(--color-primario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display:block;
+
+    padding: 10px; /* Añade espacio interno */
+    resize: both; /* Permite cambiar el tamaño */
+    overflow: auto; /* Maneja el contenido que excede el tamaño */
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total */
+    resize: both; /* Permite cambiar el tamaño */
+    overflow: auto; /* Maneja el contenido que excede el tamaño */
+    /* Ingrese el texto aqui */
+
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+
+
+}
+
+
+
+
+.boton_encriptar {
+    border-radius: 7%;
+    border: none;
+    background-color:#0A3871 ;
+    color:var(--color-primario);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+
+
+
+
+
+    
+}
+
+.boton_desencriptar {
+    border-radius: 7%;
+    border: none;
+    background-color:#D8DFE8;
+    color: #0A3871;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.imagen_advertencia{
+    margin-bottom: 1px; /* Ajusta este valor según sea necesario */
+}
+
+
+.footer{
+   
+    padding: 24px;
+    padding: 20% 0% 0% 15%;
+    font-family: var(--fuente-montserrat);
+    font-size: 24px;
+    font-weight: 400;
+    bottom: 0;
+}
+
+.cuadrado{
+    
+/* Rectangle 1 */
+
+position: absolute;
+width: 400px;
+height: 944px;
+left: 1000px;
+top: 40px;
+
+/* White */
+background: #FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+
+.no_hay_texto img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <h1 >
+        <img class="alura" src="./img/Logo.png" alt="Foto de Ana García desarrolando un proyecto">
+    </h1>
+
+
+    <textarea  class="caja_texto" type="text" placeholder="Introduzca el texto"  id="miInput" ></textarea>
+
+
+  
+
+    <div  class="cuadrado">  
+        <p class="texto_desemcriptado" id="texto_usuario"></p>
+        <div class="no_hay_texto">
+            <img id="imagen_muneco"src="./img/Muñeco.png" alt="no hay texto"> 
+              
+        </div>
+
+    </div>
+
+    <script class="programa_java" src="logica.js"></script>
+
+ 
+    <footer class="footer">
+        <div class="imagen_advertencia" >  
+            <img src="./img/Frame 1.png" alt="Imagen de advertencia"> 
+        </div>
+
+        <button class="boton_encriptar" onclick="mostrarTexto_encriptado()">Encriptar</button>
+        <button class="boton_desencriptar"  onclick="mostrarTexto_desencriptado()">Desencriptar</button>
+    </footer>
+</body>
+</html>
+
